@@ -1,0 +1,61 @@
+:root {
+    --color-primary: #27AE60;
+    --color-secondary: #EB5757;
+
+    --gray-600: #333333;
+    --grey-300: #828282;
+    --grey-100: #E0E0E0;
+    --grey-0: #F5F5F5;
+}
+
+.container {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.listProducts {
+    display: flex;
+    flex-direction: row;
+}
+
+.contentLi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+
+    p {
+        color: var(--color-primary);
+    }
+}
+
+.counter {
+    display: flex;
+    font-size: 14px;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.counterButton {
+    display: flex;
+    align-items: center;
+    color: var(--color-primary);
+    gap: 8px;
+
+    button {
+        display: flex;
+        color: var(--grey-300);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: 1px solid var(--grey-100);
+        width: 1.6rem;
+        border-radius: 5px;
+    }
+}
+
+.buttonDelete {
+    color: rgba(189, 189, 189, 1);
+    background-color: #fff;
+
+}

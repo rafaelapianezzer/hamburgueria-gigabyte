@@ -1,0 +1,49 @@
+.colorHeader{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 8px solid var(--color-primary); 
+}
+
+.logo {
+    max-width: 50%;
+    height: auto;
+}
+
+.cartIcon{
+    background: black;
+    border: radius 50% black;     
+    padding: 0.5rem;         
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    width: 1024px;
+    
+    form{
+        display: none;
+    }
+
+    button{
+        color: #BDBDBD;
+        position: relative;
+    }
+
+    span{
+        border-radius: 5px;
+        background-color: var(--color-primary);
+        color: var(--grey-0);
+        position: absolute;
+        top: -12px;
+        right: 2px;
+        padding: 2px 4px;
+    }
+
+}
+
